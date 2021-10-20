@@ -1,6 +1,7 @@
 type Link {
     url: String!
-    description: String!
+    description: String
+    postedBy: User
 }
 
 type Query {
